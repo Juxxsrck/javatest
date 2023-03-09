@@ -4,11 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf710643-6946-469c-85d2-d6e98e770305" name="Changes" comment="" />
+    <list default="true" id="cf710643-6946-469c-85d2-d6e98e770305" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/data/MovieRepositoryJdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/movies/data/MovieRepositoryIntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/sql-scripts/test-data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/discounts/PriceCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/discounts/PriceCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/data/MovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/data/MovieRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/model/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/model/Genre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/model/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/service/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/service/MovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/player/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/player/Dice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/player/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/stringUtil/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/stringUtil/StringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/tdd/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/tdd/FizzBuzz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/tdd/RomanNumerals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/tdd/RomanNumerals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/util/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/util/DateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/util/PasswordUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/util/PasswordUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/util/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/util/StringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/discounts/PriceCalculatorShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/discounts/PriceCalculatorShould.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/movies/service/MovieServiceShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/movies/service/MovieServiceShould.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/player/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/player/PlayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/stringUtil/StringUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/stringUtil/StringUtilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/tdd/FizzBuzzShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/tdd/FizzBuzzShould.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/tdd/RomanNumeralsShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/tdd/RomanNumeralsShould.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/util/DateUtilLeapYearShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/util/DateUtilLeapYearShould.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/util/PasswordUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/util/PasswordUtilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/util/StringUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/util/StringUtilTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2LYfE5AoZEGCtpALt8NGjIcVBHV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -16,12 +61,121 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;last_directory_selection&quot;: &quot;D:/git/javatest/src/main/java/com/platzi/javatests/util&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.platzi.javatests.movies.data" />
+      <recent name="com.platzi.javatests.movies.model" />
+      <recent name="com.platzi.javatests.player" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.platzi.javatests.movies.data" />
+      <recent name="com.platzi.javatests.movies.service" />
+      <recent name="com.platzi.javatests.tdd" />
+      <recent name="com.platzi.javatests.discounts" />
+      <recent name="com.platzi.javatests.util" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MovieRepositoryIntegrationTest">
+    <configuration name="FizzBuzzShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javatest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.platzi.javatests.tdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.platzi.javatests.tdd" />
+      <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.tdd.FizzBuzzShould" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieRepositoryIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javatest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.platzi.javatests.movies.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.platzi.javatests.movies.data" />
+      <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.movies.data.MovieRepositoryIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieRepositoryIntegrationTest.load_movie_by_id" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javatest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.platzi.javatests.movies.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.platzi.javatests.movies.data" />
+      <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.movies.data.MovieRepositoryIntegrationTest" />
+      <option name="METHOD_NAME" value="load_movie_by_id" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieServiceShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javatest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.platzi.javatests.movies.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.platzi.javatests.movies.service" />
+      <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.movies.service.MovieServiceShould" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RomanNumeralsShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javatest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.platzi.javatests.tdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.platzi.javatests.tdd" />
+      <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.tdd.RomanNumeralsShould" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MovieRepositoryIntegrationTest" />
+        <item itemvalue="JUnit.MovieRepositoryIntegrationTest.load_movie_by_id" />
+        <item itemvalue="JUnit.MovieServiceShould" />
+        <item itemvalue="JUnit.RomanNumeralsShould" />
+        <item itemvalue="JUnit.FizzBuzzShould" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -32,5 +186,20 @@
       <updated>1676052822091</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
